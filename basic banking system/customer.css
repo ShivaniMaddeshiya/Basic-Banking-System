@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#nav-bar {
+  background-color: #ec4512;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  float: left;
+  width: 100%;
+  font-family: "Oswald", sans-serif;
+}
+
+.navbar {
+  padding: 0 !important;
+}
+
+.navbar-nav li {
+  padding: 0 20px;
+}
+
+.navbar-nav li a {
+  color: #000 !important;
+  font-weight: 600;
+  float: right;
+  text-align: left;
+  font-size: 20px;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #5f6368 !important;
+}
+
+.navbar-brand img {
+  height: 40px;
+  padding-left: 20px;
+}
+
+.nav-link {
+  float: right;
+  color: #5f6368 !important;
+}
+
+.nav-link:hover {
+  background-color: lavenderblush;
+}
+/* navbar css ends here  */
+#main {
+  text-align: center;
+  background-color: #eef5ec;
+}
+
+.my-info {
+  padding: 2rem 5rem;
+}
+
+.btn-info {
+  padding: 1rem 1.2rem;
+  background-color: rgb(38, 197, 65) !important;
+  color: #fff !important;
+  margin-left: 5px;
+  padding: 0.75rem;
+  transition: all 0.3s;
+}
+
+.btn-info:hover {
+  background-color: rgb(21, 201, 147) !important;
+}
+
+.container {
+  font-family: "EB Garamond", serif;
+}
+
+.table-danger,
+.table-danger > tr,
+.table-danger > th {
+  background-color: #9b2515;
+  color: #f3f4ed;
+}
+
+.table-light,
+.table-light > tr,
+.table-light > td {
+  background-color: #f197bd;
+  color: #424642;
+}
+
+.table-info,
+.table-info > tr,
+.table-info > td {
+  background-color: #15b6c2;
+  color: #f3f4ed;
+}
